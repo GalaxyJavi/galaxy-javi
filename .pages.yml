@@ -1,0 +1,17 @@
+here
+media:
+  input: media
+  output: /media
+
+content:
+  - name: website
+    label: Website
+    type: file
+    path: content/website.json
+    fields:
+      - name: artistName
+        label: Artist Name
+        type: string
+      - name: biography
+        label: About Me
+        type: text
